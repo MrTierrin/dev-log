@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import Button from '@/components/Button'
 
 export default function Home() {
   return (
@@ -8,6 +9,7 @@ export default function Home() {
       </Head>
       <div className="text-discord">
         Hey
+        <Button>Hola!</Button>
       </div>
     </>
   )
