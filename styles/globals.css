@@ -11,7 +11,13 @@ html,
 body {
   padding: 0;
   margin: 0;
-  @apply bg-blueg-800 text-white h-full min-h-full;
+  @apply h-full min-h-full;
+}
+
+#__next {
+  background: #e9e9ef;
+  @apply dark:bg-gray-800 dark:text-white text-gray-700;
+  transition: 0.5s background-color cubic-bezier(0.78, 0.34, 1, 1);
 }
 
 a {

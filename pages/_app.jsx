@@ -1,11 +1,15 @@
+import { ThemeProvider } from 'next-themes'
+
 import '../styles/globals.css'
-import Container from '../components/Container'
+import Container from '@/components/Container'
 
 function MyApp({ Component, pageProps }) {
   return (
-    <Container>
-      <Component {...pageProps} />
-    </Container>
+    <ThemeProvider attribute="class">
+      <Container>
+        <Component {...pageProps} />
+      </Container>
+    </ThemeProvider>
   )
 }
 

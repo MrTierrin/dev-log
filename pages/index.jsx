@@ -1,13 +1,12 @@
 import Head from 'next/head'
-import styles from '../styles/Home.module.css'
 
 export default function Home() {
   return (
     <>
       <Head>
-        <title>Hola! :D Practicando NextJS + Tailwindcss</title>
+        <title>NextJS + TailwindCSS</title>
       </Head>
-      <div className="text-discord-600">
+      <div className="text-discord">
         Hey
       </div>
     </>
