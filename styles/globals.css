@@ -11,11 +11,12 @@ html,
 body {
   padding: 0;
   margin: 0;
+  overflow-x: none;
   @apply h-full min-h-full;
 }
 
 #__next {
-  @apply dark:bg-gray-800 dark:text-white text-gray-700;
+  @apply bg-gray-400 text-gray-700 dark:bg-gray-800 dark:text-white;
   background: #e9e9ef;
   transition: 0.2s background-color;
 }
