@@ -15,9 +15,9 @@ body {
 }
 
 #__next {
-  background: #e9e9ef;
   @apply dark:bg-gray-800 dark:text-white text-gray-700;
-  transition: 0.5s background-color cubic-bezier(0.78, 0.34, 1, 1);
+  background: #e9e9ef;
+  transition: 0.2s background-color;
 }
 
 a {
