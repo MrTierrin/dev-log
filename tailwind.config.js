@@ -16,8 +16,23 @@ module.exports = {
       blueg: colors.blueGray,
       white: colors.white,
       discord: {
-        DEFAULT: '#7289da'
+        50: '#aab8e8',
+        100: '#9cace5',
+        200: '#8ea0e1',
+        300: '#8094dd',
+        DEFAULT: '#7289da',
+        500: '#667bc4',
+        600: '#5b6dae',
+        700: '#4f5f98',
+        800: '#2d3657',
+        900: '#222941',
       }
     }
   },
+  variants: {
+    extend: {
+      scale: ['active'],
+      backgroundColor: ['active']
+    }
+  }
 }

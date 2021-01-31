@@ -8,8 +8,12 @@ export default function Home() {
         <title>NextJS + TailwindCSS</title>
       </Head>
       <div className="text-discord">
-        Hey
-        <Button>Hola!</Button>
+        <Button
+          className="bg-discord transition-colors duration-300 transform hover:bg-discord-200 active:scale-90"
+        >
+          Hey!
+        </Button>
+        <div className="w-full" />
       </div>
     </>
   )
