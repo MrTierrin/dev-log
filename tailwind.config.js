@@ -17,10 +17,11 @@ module.exports = {
       gray: colors.coolGray,
       blue: colors.blue,
       red: colors.rose,
-      pink: colors.fuchsia,
+      yellow: colors.yellow,
       black: colors.black,
       blueg: colors.blueGray,
       white: colors.white,
+      green: colors.green,
       discord: {
         50: '#aab8e8',
         100: '#9cace5',

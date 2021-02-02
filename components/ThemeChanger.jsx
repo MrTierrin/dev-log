@@ -1,7 +1,7 @@
 import { useTheme } from 'next-themes'
 
-import Moon from '@/components/Icons/Moon';
-import Sun from '@/components/Icons/Sun';
+import Moon from '@/components/Icons/Moon'
+import Sun from '@/components/Icons/Sun'
 
 function ThemeChanger() {
   const { theme, setTheme } = useTheme()
