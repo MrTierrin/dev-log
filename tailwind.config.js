@@ -33,6 +33,13 @@ module.exports = {
         800: '#2d3657',
         900: '#222941',
       }
+    },
+    extend: {
+      fontFamily: {
+        sans: ['Varela Round', ...defaultTheme.fontFamily.sans],
+        serif: defaultTheme.fontFamily.serif,
+        mono: ['monospace', defaultTheme.fontFamily.mono]
+      }
     }
   },
   variants: {
